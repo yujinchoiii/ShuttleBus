@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#7f6fba"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="6"
+        android:text="수지성복 효성해링턴 코트\n셔틀 버스 안내"
+        android:fontFamily="@font/scdream5"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="16sp"/>
+    <com.google.android.gms.common.SignInButton
+        android:layout_gravity="center"
+        android:id="@+id/sign_in_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:textSize="8sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        tools:text="만든이 : 109동 102호"/>
+</LinearLayout>

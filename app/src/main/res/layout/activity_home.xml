@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#716fba"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".Home">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0.55"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/apartname"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:layout_weight="1"
+        android:fontFamily="@font/scdream5"
+        android:text="수지성복 효성해링턴 코트"/>
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="vertical"
+        android:layout_weight="3.5">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <ImageButton
+                android:background="#716fba"
+                android:src="@drawable/button_bus_location"
+                android:scaleType="fitXY"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="5dp"
+                android:onClick="location"/>
+            <ImageButton
+                android:background="#716fba"
+                android:src="@drawable/button_bus_timetable"
+                android:scaleType="fitXY"
+                android:layout_marginStart="5dp"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="showBusRoute"
+                android:id="@+id/button_showBusRoute"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <ImageButton
+                android:background="#716fba"
+                android:src="@drawable/button_bus_call"
+                android:scaleType="fitXY"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="5dp"
+                android:onClick="dialDriver"/>
+            <ImageButton
+                android:background="#716fba"
+                android:src="@drawable/button_office_call"
+                android:scaleType="fitXY"
+                android:layout_marginStart="5dp"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="dialOffice"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:textSize="8sp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/scdream5"
+        android:text="만든이 : 109동 102호" />
+</LinearLayout>
