@@ -8,6 +8,7 @@
 
 #### 주 사용 기능
 ##### Firebase Authentication
+##### Firebase Realtime Database(REST API)
 ##### Android Permission
 ##### Google Map Marker
 ##### GPS Change Listener
@@ -15,7 +16,14 @@
 
 ### For Driver
 
+<img width="186" alt="image" src="https://user-images.githubusercontent.com/70501917/167072409-4eac671c-fed7-45c1-a0f2-2376c40fe0a8.png">
 
+#### 주 사용 기능
+##### Firebase Authentication
+##### Firebase Realtime Database(REST API)
+##### Android Permission
+##### Background Service
+##### GPS Change Observer
 
 ## 완성된 최종본 앱 링크
 ## https://play.google.com/store/apps/details?id=com.opusone.shuttlebus
